@@ -30,7 +30,7 @@ pipelines:
           <<: *plan
       - apply:
           <<: *apply
-  B:
+  BB:
     group: GOgogadgetCD
     materials:
       thing2:
@@ -43,7 +43,7 @@ pipelines:
           <<: *plan
       - apply:
           <<: *apply
-  C:
+  CC:
     group: GOgogadgetCD
     materials:
       thing3:

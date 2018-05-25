@@ -38,6 +38,7 @@ pipelines:
     group: GOgogadgetCD
     materials:
       <<: *parent
+      <<: *materials
     stages:
       - plan:
           <<: *plan

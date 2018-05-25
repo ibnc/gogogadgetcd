@@ -20,7 +20,7 @@ common:
   #   thing:
   #     type: configrepo
 pipelines:
-  P:
+  S:
     group: GOgogadgetCD
     materials:
       thing1:
@@ -30,26 +30,26 @@ pipelines:
           <<: *plan
       - apply:
           <<: *apply
-  Q:
+  T:
     group: GOgogadgetCD
     materials:
       thing2:
         type: configrepo
       parent:
-        pipeline: P
+        pipeline: S
         stage: apply
     stages:
       - plan:
           <<: *plan
       - apply:
           <<: *apply
-  R:
+  U:
     group: GOgogadgetCD
     materials:
       thing3:
         type: configrepo
       parentTwo:
-        pipeline: P
+        pipeline: S
         stage: apply
     stages:
       - plan:

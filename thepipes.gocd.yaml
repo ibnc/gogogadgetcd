@@ -13,7 +13,7 @@ common:
             echo "PLAN!"
   apply: &apply
     approval:
-      type: manual # Require someone in the UI to manually approve the execution of this stage
+      type: manual
     clean_workspace: true
     jobs:
       apply:

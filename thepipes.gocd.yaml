@@ -23,7 +23,6 @@ common:
   materials: &materials
     thing:
       type: configrepo
-      destination: repo
 pipelines:
   A:
     group: GOgogadgetCD

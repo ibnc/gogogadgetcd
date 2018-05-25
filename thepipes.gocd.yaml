@@ -1,9 +1,5 @@
 format_version: 2
 common:
-  parent: &parent
-    Apipeline:
-      pipeline: X
-      stage: apply
   plan: &plan
     clean_workspace: true
     jobs:
@@ -24,7 +20,7 @@ common:
     thing:
       type: configrepo
 pipelines:
-  X:
+  P:
     group: GOgogadgetCD
     materials:
       <<: *materials
@@ -33,21 +29,25 @@ pipelines:
           <<: *plan
       - apply:
           <<: *apply
-  Y:
+  Q:
     group: GOgogadgetCD
     materials:
       <<: *materials
-      <<: *parent
+      parent:
+        pipeline: P
+        stage: apply
     stages:
       - plan:
           <<: *plan
       - apply:
           <<: *apply
-  Z:
+  R:
     group: GOgogadgetCD
     materials:
       <<: *materials
-      <<: *parent
+      parentTwo:
+        pipeline: P
+        stage: apply
     stages:
       - plan:
           <<: *plan

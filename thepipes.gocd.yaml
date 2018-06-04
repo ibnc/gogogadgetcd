@@ -15,7 +15,7 @@ common:
       apply:
         tasks:
         - script: |
-            echo "UPDATING APPLY!"
+            echo "UPDATES APPLY!"
   # materials: &materials
   #   thing:
   #     type: configrepo

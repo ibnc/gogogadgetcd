@@ -15,7 +15,7 @@ common:
       apply:
         tasks:
         - script: |
-            echo "d APPLY!"
+            echo "l APPLY!"
   # materials: &materials
   #   thing:
   #     type: configrepo

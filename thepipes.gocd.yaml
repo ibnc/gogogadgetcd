@@ -15,7 +15,7 @@ common:
       apply:
         tasks:
         - script: |
-            echo "config APPLY!"
+            echo "configing APPLY!"
   # materials: &materials
   #   thing:
   #     type: configrepo

@@ -43,16 +43,3 @@ pipelines:
           <<: *plan
       - apply:
           <<: *apply
-  CCCCC:
-    group: GOgogadgetCD
-    materials:
-      thing3:
-        type: configrepo
-      parentTwo:
-        pipeline: AAAAA
-        stage: apply
-    stages:
-      - plan:
-          <<: *plan
-      - apply:
-          <<: *apply

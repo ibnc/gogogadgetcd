@@ -30,6 +30,15 @@ pipelines:
           <<: *plan
       - apply:
           <<: *apply
+  testPipe:
+    group: GOgogadgetCD
+    materials:
+      mygit:
+        git: git@github.com:ibnc/tablinate.git
+        branch: master
+    stages:
+      - whatever:
+        <<: *plan
   BBBBB:
     group: GOgogadgetCD
     materials:

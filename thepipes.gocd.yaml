@@ -34,7 +34,7 @@ pipelines:
     group: GOgogadgetCD
     materials:
       mygit:
-        git: git@github.com:ibnc/tablinate.git
+        git: https://github.com/ibnc/tablinate.git
         branch: master
     stages:
       - whatever:

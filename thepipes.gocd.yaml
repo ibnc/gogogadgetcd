@@ -47,9 +47,6 @@ pipelines:
       parent:
         pipeline: AAAAA
         stage: apply
-      parent2:
-        pipeline: XXXXXXXXXX
-        stage: whatever
     stages:
       - plan:
           <<: *plan

@@ -20,7 +20,7 @@ common:
   #   thing:
   #     type: configrepo
 pipelines:
-  aTest:
+  aTestAgain:
     group: GOgogadgetCD
     materials:
       thing1:

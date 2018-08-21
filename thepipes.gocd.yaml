@@ -36,9 +36,6 @@ pipelines:
       thing3:
         git: https://github.com/ibnc/tablinate.git
         branch: master
-      parent2:
-        pipeline: bleh
-        stage: defaultStage
     stages:
       - whatever:
           <<: *plan

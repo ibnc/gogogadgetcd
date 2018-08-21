@@ -20,7 +20,7 @@ common:
   #   thing:
   #     type: configrepo
 pipelines:
-  bethSanchez:
+  SummerSanchez:
     group: GOgogadgetCD
     materials:
       thing1:

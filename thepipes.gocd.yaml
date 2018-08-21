@@ -30,25 +30,3 @@ pipelines:
           <<: *plan
       - apply:
           <<: *apply
-  eekeek:
-    group: GOgogadgetCD
-    materials:
-      thing3:
-        git: https://github.com/ibnc/tablinate.git
-        branch: master
-    stages:
-      - whatever:
-          <<: *plan
-  blahblah:
-    group: GOgogadgetCD
-    materials:
-      thing2:
-        type: configrepo
-      parent:
-        pipeline: testing
-        stage: apply
-    stages:
-      - plan:
-          <<: *plan
-      - apply:
-          <<: *apply

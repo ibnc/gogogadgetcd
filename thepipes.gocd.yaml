@@ -20,7 +20,7 @@ common:
   #   thing:
   #     type: configrepo
 pipelines:
-  EvilRick:
+  BirdPerson:
     group: GOgogadgetCD
     materials:
       thing1:

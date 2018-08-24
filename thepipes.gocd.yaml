@@ -20,7 +20,7 @@ common:
   #   thing:
   #     type: configrepo
 pipelines:
-  Slowmobius:
+  Plumbus:
     group: GOgogadgetCD
     materials:
       thing1:

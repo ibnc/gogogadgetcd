@@ -5,8 +5,7 @@ common:
     jobs:
       plan:
         tasks:
-        - script: |
-            echo "PLAN!"
+        - exec: ls
   apply: &apply
     approval:
       type: manual
@@ -14,8 +13,7 @@ common:
     jobs:
       apply:
         tasks:
-        - script: |
-            echo "d APPLY!"
+        - exec: ls
   # materials: &materials
   #   thing:
   #     type: configrepo

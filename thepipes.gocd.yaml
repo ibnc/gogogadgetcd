@@ -5,7 +5,7 @@ common:
     jobs:
       plan:
         tasks:
-        - exec:
+          - exec:
             command: ls
   apply: &apply
     approval:
@@ -14,7 +14,7 @@ common:
     jobs:
       apply:
         tasks:
-        - exec:
+          - exec:
             command: ls
   # materials: &materials
   #   thing:

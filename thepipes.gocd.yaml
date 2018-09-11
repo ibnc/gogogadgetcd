@@ -5,7 +5,8 @@ common:
     jobs:
       plan:
         tasks:
-        - exec: ls
+        - exec:
+            commond: ls
   apply: &apply
     approval:
       type: manual
@@ -13,7 +14,8 @@ common:
     jobs:
       apply:
         tasks:
-        - exec: ls
+        - exec:
+            commond: ls
   # materials: &materials
   #   thing:
   #     type: configrepo

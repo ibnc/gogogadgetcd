@@ -6,7 +6,7 @@ common:
       plan:
         tasks:
           - exec:
-            command: ls
+              command: ls
   apply: &apply
     approval:
       type: manual
@@ -15,7 +15,7 @@ common:
       apply:
         tasks:
           - exec:
-            command: ls
+              command: ls
   # materials: &materials
   #   thing:
   #     type: configrepo

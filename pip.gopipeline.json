@@ -1,0 +1,25 @@
+{
+  "pipeline":{
+    "stage":
+    {
+      "jobs":
+      {
+        "job": {
+          "name":"test_job",
+          "tasks":{
+            "exec":{
+              "command":"ls"
+            }
+          }
+        }
+      },
+      "name":"test_stage"
+    },
+    "materials":{
+      "git":{
+        "url":"test-repo"
+      }
+    },
+    "name":"test"
+  }
+}

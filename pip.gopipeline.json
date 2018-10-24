@@ -10,9 +10,6 @@
   "environment_variables": [
 
   ],
-  "parameters": [
-
-  ],
   "materials": [
     {
       "url": "git@github.com:ibnc/tablinate.git",

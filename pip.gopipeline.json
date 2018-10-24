@@ -1,6 +1,6 @@
 {
   "format_version": "1",
-  "name": "pipeline1",
+  "name": "pip",
   "group": "group",
   "label_template": "${COUNT}",
   "lock_behavior": "none",

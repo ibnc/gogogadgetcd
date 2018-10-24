@@ -1,5 +1,5 @@
 {
-  "format_version": "1",
+  "format_version": "3",
   "name": "pip",
   "group": "group",
   "label_template": "${COUNT}",

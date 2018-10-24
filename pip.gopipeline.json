@@ -1,7 +1,7 @@
 {
   "format_version": "3",
   "name": "pip",
-  "group": "group",
+  "group": "group1",
   "label_template": "${COUNT}",
   "lock_behavior": "none",
   "mingle": {

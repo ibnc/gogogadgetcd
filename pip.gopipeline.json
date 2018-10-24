@@ -32,7 +32,7 @@
   ],
   "stages": [
     {
-      "name": "defaultStage1",
+      "name": "stage1",
       "fetch_materials": true,
       "never_cleanup_artifacts": false,
       "clean_working_directory": false,

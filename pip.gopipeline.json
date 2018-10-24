@@ -1,4 +1,5 @@
 {
+  "format_version": "1",
   "name": "pipeline1",
   "group": "group",
   "label_template": "${COUNT}",

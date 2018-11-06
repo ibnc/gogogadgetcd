@@ -1,4 +1,4 @@
-format_version: 2
+format_version: 3
 pipelines:
   pipeline2:
     group: blah
@@ -40,6 +40,4 @@ pipelines:
                   ]
                 command: ls
                 run_if: passed
-    parameters: {
-      }
 

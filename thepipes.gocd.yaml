@@ -14,30 +14,30 @@ pipelines:
         branch: master
     stages:
       - AStage:
-        fetch_materials: true
-        keep_artifacts: false
-        clean_workspace: false
-        approval:
-          type: success
-          roles: [
-            ]
-          users: [
-            ]
-        jobs:
-          defaultJob1:
-            run_instances: '0'
-            tabs: {
-              }
-            resources: [
+          fetch_materials: true
+          keep_artifacts: false
+          clean_workspace: false
+          approval:
+            type: success
+            roles: [
               ]
-            artifacts: [
+            users: [
               ]
-            properties: {
-              }
-            tasks:
-            - exec:
-                arguments: [
-                  ]
-                command: ls
-                run_if: passed
+          jobs:
+            defaultJob1:
+              run_instances: '0'
+              tabs: {
+                }
+              resources: [
+                ]
+              artifacts: [
+                ]
+              properties: {
+                }
+              tasks:
+              - exec:
+                  arguments: [
+                    ]
+                  command: ls
+                  run_if: passed
 

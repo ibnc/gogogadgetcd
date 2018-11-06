@@ -1,0 +1,43 @@
+pipeline2:
+  group: blah
+  label_template: ${COUNT}
+  lock_behavior: none
+  materials:
+    git:
+      git: git@github.com:ibnc/tablinate.git
+      blacklist: [
+        ]
+      shallow_clone: false
+      auto_update: true
+      branch: master
+  stages:
+    - defaultStage1:
+      fetch_materials: true
+      keep_artifacts: false
+      clean_workspace: false
+      approval:
+        type: success
+        roles: [
+          ]
+        users: [
+          ]
+      jobs:
+        defaultJob1:
+          run_instances: '0'
+          tabs: {
+            }
+          resources: [
+            ]
+          artifacts: [
+            ]
+          properties: {
+            }
+          tasks:
+          - exec:
+              arguments: [
+                ]
+              command: ls
+              run_if: passed
+  parameters: {
+    }
+

@@ -1,6 +1,6 @@
 format_version: 3
 pipelines:
-  pipeline3:
+  aTest:
     group: blah
     label_template: ${COUNT}
     lock_behavior: none
@@ -11,16 +11,18 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - stagething:
+    - defaultStage:
         fetch_materials: true
         keep_artifacts: false
         clean_workspace: false
         approval:
           type: success
         jobs:
-          defaultJob1:
+          defaultJob:
             run_instances: '0'
             tasks:
-            - exec:
-                command: ls
+            - ant:
                 run_if: passed
+    parameters:
+      hmm: hmm
+

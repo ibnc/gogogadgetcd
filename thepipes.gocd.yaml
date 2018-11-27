@@ -13,7 +13,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -40,7 +39,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -67,7 +65,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -94,7 +91,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -121,7 +117,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -148,7 +143,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -175,7 +169,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -202,7 +195,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -229,7 +221,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -256,7 +247,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -283,7 +273,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -310,7 +299,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -337,7 +325,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -364,7 +351,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -391,7 +377,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -418,7 +403,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -445,7 +429,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -472,7 +455,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -499,7 +481,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -526,7 +507,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -553,7 +533,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -580,7 +559,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -607,7 +585,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -634,7 +611,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -661,7 +637,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -688,7 +663,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -715,7 +689,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -742,7 +715,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -769,7 +741,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -796,7 +767,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -823,7 +793,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -850,7 +819,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -877,7 +845,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -904,7 +871,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -931,7 +897,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false
@@ -958,7 +923,6 @@ pipelines:
         auto_update: true
         branch: master
     stages:
-    - defaultStage:
     - '2':
         fetch_materials: true
         keep_artifacts: false

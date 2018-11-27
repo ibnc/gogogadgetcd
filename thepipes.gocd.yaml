@@ -513,3 +513,273 @@ pipelines:
             - exec:
                 command: ls
                 run_if: passed
+  noodles:
+    group: eekbarbadurkle
+    label_template: ${COUNT}
+    lock_behavior: none
+    environment_variables:
+      ee: uuu
+    materials:
+      git:
+        git: git@github.com:ibnc/tablinate.git
+        shallow_clone: false
+        auto_update: true
+        branch: master
+    stages:
+    - defaultStage:
+    - '2':
+        fetch_materials: true
+        keep_artifacts: false
+        clean_workspace: false
+        approval:
+          type: success
+        jobs:
+          '2':
+            run_instances: '0'
+            tasks:
+            - exec:
+                command: ls
+                run_if: passed
+  poodles:
+    group: eekbarbadurkle
+    label_template: ${COUNT}
+    lock_behavior: none
+    environment_variables:
+      ee: uuu
+    materials:
+      git:
+        git: git@github.com:ibnc/tablinate.git
+        shallow_clone: false
+        auto_update: true
+        branch: master
+    stages:
+    - defaultStage:
+    - '2':
+        fetch_materials: true
+        keep_artifacts: false
+        clean_workspace: false
+        approval:
+          type: success
+        jobs:
+          '2':
+            run_instances: '0'
+            tasks:
+            - exec:
+                command: ls
+                run_if: passed
+  tea:
+    group: eekbarbadurkle
+    label_template: ${COUNT}
+    lock_behavior: none
+    environment_variables:
+      ee: uuu
+    materials:
+      git:
+        git: git@github.com:ibnc/tablinate.git
+        shallow_clone: false
+        auto_update: true
+        branch: master
+    stages:
+    - defaultStage:
+    - '2':
+        fetch_materials: true
+        keep_artifacts: false
+        clean_workspace: false
+        approval:
+          type: success
+        jobs:
+          '2':
+            run_instances: '0'
+            tasks:
+            - exec:
+                command: ls
+                run_if: passed
+  puerh:
+    group: eekbarbadurkle
+    label_template: ${COUNT}
+    lock_behavior: none
+    environment_variables:
+      ee: uuu
+    materials:
+      git:
+        git: git@github.com:ibnc/tablinate.git
+        shallow_clone: false
+        auto_update: true
+        branch: master
+    stages:
+    - defaultStage:
+    - '2':
+        fetch_materials: true
+        keep_artifacts: false
+        clean_workspace: false
+        approval:
+          type: success
+        jobs:
+          '2':
+            run_instances: '0'
+            tasks:
+            - exec:
+                command: ls
+                run_if: passed
+  air:
+    group: eekbarbadurkle
+    label_template: ${COUNT}
+    lock_behavior: none
+    environment_variables:
+      ee: uuu
+    materials:
+      git:
+        git: git@github.com:ibnc/tablinate.git
+        shallow_clone: false
+        auto_update: true
+        branch: master
+    stages:
+    - defaultStage:
+    - '2':
+        fetch_materials: true
+        keep_artifacts: false
+        clean_workspace: false
+        approval:
+          type: success
+        jobs:
+          '2':
+            run_instances: '0'
+            tasks:
+            - exec:
+                command: ls
+                run_if: passed
+  wind:
+    group: eekbarbadurkle
+    label_template: ${COUNT}
+    lock_behavior: none
+    environment_variables:
+      ee: uuu
+    materials:
+      git:
+        git: git@github.com:ibnc/tablinate.git
+        shallow_clone: false
+        auto_update: true
+        branch: master
+    stages:
+    - defaultStage:
+    - '2':
+        fetch_materials: true
+        keep_artifacts: false
+        clean_workspace: false
+        approval:
+          type: success
+        jobs:
+          '2':
+            run_instances: '0'
+            tasks:
+            - exec:
+                command: ls
+                run_if: passed
+  fire:
+    group: eekbarbadurkle
+    label_template: ${COUNT}
+    lock_behavior: none
+    environment_variables:
+      ee: uuu
+    materials:
+      git:
+        git: git@github.com:ibnc/tablinate.git
+        shallow_clone: false
+        auto_update: true
+        branch: master
+    stages:
+    - defaultStage:
+    - '2':
+        fetch_materials: true
+        keep_artifacts: false
+        clean_workspace: false
+        approval:
+          type: success
+        jobs:
+          '2':
+            run_instances: '0'
+            tasks:
+            - exec:
+                command: ls
+                run_if: passed
+  ice:
+    group: eekbarbadurkle
+    label_template: ${COUNT}
+    lock_behavior: none
+    environment_variables:
+      ee: uuu
+    materials:
+      git:
+        git: git@github.com:ibnc/tablinate.git
+        shallow_clone: false
+        auto_update: true
+        branch: master
+    stages:
+    - defaultStage:
+    - '2':
+        fetch_materials: true
+        keep_artifacts: false
+        clean_workspace: false
+        approval:
+          type: success
+        jobs:
+          '2':
+            run_instances: '0'
+            tasks:
+            - exec:
+                command: ls
+                run_if: passed
+  water:
+    group: eekbarbadurkle
+    label_template: ${COUNT}
+    lock_behavior: none
+    environment_variables:
+      ee: uuu
+    materials:
+      git:
+        git: git@github.com:ibnc/tablinate.git
+        shallow_clone: false
+        auto_update: true
+        branch: master
+    stages:
+    - defaultStage:
+    - '2':
+        fetch_materials: true
+        keep_artifacts: false
+        clean_workspace: false
+        approval:
+          type: success
+        jobs:
+          '2':
+            run_instances: '0'
+            tasks:
+            - exec:
+                command: ls
+                run_if: passed
+  earth:
+    group: eekbarbadurkle
+    label_template: ${COUNT}
+    lock_behavior: none
+    environment_variables:
+      ee: uuu
+    materials:
+      git:
+        git: git@github.com:ibnc/tablinate.git
+        shallow_clone: false
+        auto_update: true
+        branch: master
+    stages:
+    - defaultStage:
+    - '2':
+        fetch_materials: true
+        keep_artifacts: false
+        clean_workspace: false
+        approval:
+          type: success
+        jobs:
+          '2':
+            run_instances: '0'
+            tasks:
+            - exec:
+                command: ls
+                run_if: passed

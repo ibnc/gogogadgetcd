@@ -7,11 +7,9 @@ pipelines:
     environment_variables:
       ee: uuu
     materials:
-      git:
-        git: git@github.com:ibnc/tablinate.git
-        shallow_clone: false
-        auto_update: true
-        branch: master
+      thing:
+        pipeline: pip
+        stage: stage1
     stages:
     - '2':
         fetch_materials: true

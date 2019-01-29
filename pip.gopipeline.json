@@ -18,25 +18,10 @@
         "id": "github.pr",
         "version": "1.3.5"
       },
-        "configurations": {
+      "configurations": {
         "url": "https://github.com/ibnc/tablinate.git"
       },
       "destination": "dest"
-    },
-    {
-      "url": "git@github.com:ibnc/tablinate.git",
-      "branch": "master",
-      "shallow_clone": false,
-      "filter": {
-        "ignore": [
-          ""
-        ],
-        "whitelist": [
-
-        ]
-      },
-      "auto_update": true,
-      "type": "git"
     }
   ],
   "stages": [

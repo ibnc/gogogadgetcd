@@ -20,7 +20,8 @@
       },
         "configurations": {
         "url": "https://github.com/ibnc/tablinate.git"
-      }
+      },
+      "destination": "dest"
     },
     {
       "url": "git@github.com:ibnc/tablinate.git",

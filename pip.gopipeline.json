@@ -18,9 +18,10 @@
         "id": "github.pr",
         "version": "1.3.5"
       },
-      "configuration": {
-        "url": "https://github.com/ibnc/tablinate.git"
-      },
+      "configuration": [{
+        "key": "url",
+        "value": "https://github.com/ibnc/tablinate.git"
+      }],
       "destination": "dest"
     }
   ],

@@ -1,4 +1,5 @@
 {
+  "format_version": "3",
   "name": "dev",
   "pipelines": [
     "mypipeline1"

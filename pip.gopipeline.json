@@ -1,6 +1,6 @@
 {
   "format_version": "3",
-  "name": "pip",
+  "name": "pipin",
   "group": "group2",
   "label_template": "${COUNT}",
   "lock_behavior": "none",

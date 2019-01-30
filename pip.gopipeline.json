@@ -13,7 +13,7 @@
   "materials": [
     {
       "type": "plugin",
-      "name": "remote_scm_tests",
+      "name": "remote_scm_testing",
       "plugin_configuration": {
         "id": "github.pr",
         "version": "1.3.5"

@@ -1,6 +1,6 @@
 {
   "format_version": "3",
-  "name": "h",
+  "name": "hh",
   "group": "group2",
   "label_template": "${COUNT}",
   "lock_behavior": "none",

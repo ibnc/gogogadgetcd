@@ -13,7 +13,7 @@
   "materials": [
     {
       "type": "plugin",
-      "name": "remote_scm_testings",
+      "name": "remote_scm_testings_meow",
       "plugin_configuration": {
         "id": "github.pr",
         "version": "1.3.5"

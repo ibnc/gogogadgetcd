@@ -20,7 +20,7 @@
       },
       "configuration": [{
         "key": "url",
-        "value": "https://github.com/ibnc/datagen.git"
+        "value": "https://github.com/ibnc/gauge.git"
       }],
       "destination": "destinations_existingings"
     }

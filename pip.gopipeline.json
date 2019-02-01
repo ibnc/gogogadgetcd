@@ -26,7 +26,7 @@
     },
     {
       "type": "plugin",
-      "name": "meowzing_around",
+      "name": "meowzing_around_the_park",
       "plugin_configuration": {
         "id": "github.pr",
         "version": "1.3.5"

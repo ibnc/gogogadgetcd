@@ -1,6 +1,6 @@
 {
   "format_version": "3",
-  "name": "hhh",
+  "name": "hhh2",
   "group": "group2",
   "label_template": "${COUNT}",
   "lock_behavior": "none",
@@ -13,7 +13,7 @@
   "materials": [
     {
       "type": "plugin",
-      "name": "meow",
+      "name": "meowzing_around_the_park",
       "plugin_configuration": {
         "id": "github.pr",
         "version": "1.3.5"
@@ -22,7 +22,7 @@
         "key": "url",
         "value": "https://github.com/ibnc/tablinate.git"
       }],
-      "destination": "destination"
+      "destination": "destinations_existing"
     }
   ],
   "stages": [

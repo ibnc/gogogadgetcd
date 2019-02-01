@@ -20,7 +20,7 @@
       },
       "configuration": [{
         "key": "url",
-        "value": "https://github.com/ibnc/gocd.git"
+        "value": "https://github.com/ibnc/tablinate.git"
       }],
       "destination": "destination"
     }

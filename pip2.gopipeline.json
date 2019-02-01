@@ -20,7 +20,7 @@
       },
       "configuration": [{
         "key": "url",
-        "value": "https://github.com/ibnc/gauge.git"
+        "value": "https://github.com/ibnc/eb_deployer.git"
       }],
       "destination": "destinations_existingings"
     }

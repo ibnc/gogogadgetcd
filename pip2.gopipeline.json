@@ -13,7 +13,7 @@
   "materials": [
     {
       "type": "plugin",
-      "name": "eek_barba_durkle",
+      "name": "wubba_lubba_dub_dub",
       "plugin_configuration": {
         "id": "github.pr",
         "version": "1.3.5"

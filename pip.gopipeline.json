@@ -23,6 +23,19 @@
         "value": "https://github.com/ibnc/tablinate.git"
       }],
       "destination": "destination"
+    },
+    {
+      "type": "plugin",
+      "name": "meowzing_around",
+      "plugin_configuration": {
+        "id": "github.pr",
+        "version": "1.3.5"
+      },
+      "configuration": [{
+        "key": "url",
+        "value": "https://github.com/ibnc/servo.git"
+      }],
+      "destination": "destination"
     }
   ],
   "stages": [

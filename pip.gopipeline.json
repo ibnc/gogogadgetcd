@@ -33,7 +33,7 @@
       },
       "configuration": [{
         "key": "url",
-        "value": "https://github.com/ibnc/servo.git"
+        "value": "https://github.com/ibnc/tablinate.git"
       }],
       "destination": "destinations_existing"
     }

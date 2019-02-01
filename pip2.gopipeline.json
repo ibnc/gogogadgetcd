@@ -13,16 +13,16 @@
   "materials": [
     {
       "type": "plugin",
-      "name": "meowzing_around_the_park",
+      "name": "meow",
       "plugin_configuration": {
         "id": "github.pr",
         "version": "1.3.5"
       },
       "configuration": [{
         "key": "url",
-        "value": "https://github.com/ibnc/vimrc.git"
+        "value": "https://github.com/ibnc/gocd-yaml-config-plugin.git"
       }],
-      "destination": "destinations_existing"
+      "destination": "destinations_existinging"
     }
   ],
   "stages": [

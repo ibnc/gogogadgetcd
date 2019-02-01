@@ -13,14 +13,14 @@
   "materials": [
     {
       "type": "plugin",
-      "name": "meow",
+      "name": "wubba_lubba_dub_dub",
       "plugin_configuration": {
         "id": "github.pr",
         "version": "1.3.5"
       },
       "configuration": [{
         "key": "url",
-        "value": "https://github.com/ibnc/gocd-yaml-config-plugin.git"
+        "value": "https://github.com/ibnc/bobcat.git"
       }],
       "destination": "destinations_existinging"
     }

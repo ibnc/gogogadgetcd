@@ -20,9 +20,9 @@
       },
       "configuration": [{
         "key": "url",
-        "value": "https://github.com/ibnc/bobcat.git"
+        "value": "https://github.com/ibnc/pml-www.git"
       }],
-      "destination": "destinations_existinging"
+      "destination": "destinations_existingings"
     }
   ],
   "stages": [

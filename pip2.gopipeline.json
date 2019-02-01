@@ -20,7 +20,7 @@
       },
       "configuration": [{
         "key": "url",
-        "value": "https://github.com/ibnc/eb_deployer.git"
+        "value": "https://github.com/ibnc/aws-sdk-java.git"
       }],
       "destination": "destinations_existingings"
     }

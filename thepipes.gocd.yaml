@@ -24,7 +24,8 @@ pipelines:
             run_instances: '0'
             tasks:
             - exec:
-                command: ls
+                command: echo
+                args: $ee
                 run_if: passed
   eek:
     group: eekbarbadurkle

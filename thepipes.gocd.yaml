@@ -13,7 +13,7 @@ pipelines:
         auto_update: true
         branch: master
       dependency:
-        pipeline: ggo
+        pipeline: aincard
         stage: defaultStage
     stages:
     - '2':

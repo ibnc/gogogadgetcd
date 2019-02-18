@@ -8,7 +8,7 @@ pipelines:
       ee: ""
     materials:
       git:
-        git: git@github.com:ibnc/tablinate.git
+        git: git@github.com:ibnc/gogogadgetcd.git
         shallow_clone: false
         auto_update: true
         branch: master

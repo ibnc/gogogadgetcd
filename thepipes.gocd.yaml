@@ -1,6 +1,6 @@
 format_version: 3
 pipelines:
-  blah:
+  eek_barba_durkle:
     group: first
     label_template: ${COUNT}
     lock_behavior: none
@@ -20,8 +20,7 @@ pipelines:
         approval:
           type: success
         jobs:
-          '2':
-            run_instances: '0'
+          blah:
             tasks:
               - exec:
                   command: /bin/sh

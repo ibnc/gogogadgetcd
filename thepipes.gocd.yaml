@@ -20,8 +20,11 @@ pipelines:
         approval:
           type: success
         jobs:
-          blah:
+          defaultJob:
             tasks:
               - exec:
-                  command: /bin/sh
-                  arguments: ["-c", "sleep 300"]
+                arguments:
+                  - -c
+                  - sleep 600
+                command: /bin/bash
+                run_if: passed

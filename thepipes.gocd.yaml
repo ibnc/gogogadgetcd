@@ -23,10 +23,9 @@ pipelines:
           '2':
             run_instances: '0'
             tasks:
-            - exec:
-                command: echo
-                args: $ee
-                run_if: passed
+              - exec:
+                command: /bin/sh
+                arguments: ["-c", "sleep 600"]
   eek:
     group: eekbarbadurkle
     label_template: ${COUNT}

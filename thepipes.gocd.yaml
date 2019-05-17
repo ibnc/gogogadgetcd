@@ -24,4 +24,4 @@ pipelines:
             tasks:
               - exec:
                   command: /bin/sh
-                  arguments: ["-c", "sleep 600"]
+                  arguments: ["-c", "sleep 300"]

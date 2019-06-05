@@ -1,6 +1,6 @@
 format_version: 3
 pipelines:
-  eek_barba_durkle:
+  WubbaLubbaDubDub:
     group: first
     label_template: ${COUNT}
     lock_behavior: none

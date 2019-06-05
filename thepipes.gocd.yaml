@@ -23,8 +23,8 @@ pipelines:
           defaultJob:
             tasks:
               - exec:
-                arguments:
-                  - -c
-                  - sleep 600
-                command: /bin/bash
-                run_if: passed
+                  arguments:
+                    - -c
+                    - sleep 600
+                  command: /bin/bash
+                  run_if: passed

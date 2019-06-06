@@ -1,0 +1,80 @@
+{
+  "format_version": "3",
+  "name": "hhh",
+  "group": "group2",
+  "label_template": "${COUNT}",
+  "lock_behavior": "none",
+  "mingle": {
+    "mql_grouping_conditions": "\"\""
+  },
+  "environment_variables": [
+
+  ],
+  "materials": [
+    {
+      "type": "plugin",
+      "name": "meow",
+      "plugin_configuration": {
+        "id": "github.pr",
+        "version": "1.3.5"
+      },
+      "configuration": [{
+        "key": "url",
+        "value": "https://github.com/ibnc/tablinate.git"
+      }],
+      "destination": "destination"
+    }
+  ],
+  "stages": [
+    {
+      "name": "stage1",
+      "fetch_materials": true,
+      "never_cleanup_artifacts": false,
+      "clean_working_directory": false,
+      "approval": {
+        "type": "success",
+        "users": [
+
+        ],
+        "roles": [
+
+        ]
+      },
+      "environment_variables": [
+
+      ],
+      "jobs": [
+        {
+          "name": "defaultJob1",
+          "environment_variables": [
+
+          ],
+          "tabs": [
+
+          ],
+          "resources": [
+
+          ],
+          "artifacts": [
+
+          ],
+          "properties": [
+
+          ],
+          "run_instance_count": "0",
+          "tasks": [
+            {
+              "command": "ls",
+              "timeout": -1,
+              "arguments": [
+
+              ],
+              "run_if": "passed",
+              "type": "exec"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

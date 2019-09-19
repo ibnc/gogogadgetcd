@@ -25,7 +25,7 @@ pipelines:
               - exec:
                   arguments:
                     - -c
-                    - sleep 600
+                    - sleep 6
                   command: /bin/bash
                   run_if: passed
   EekBarbaDurkle:
